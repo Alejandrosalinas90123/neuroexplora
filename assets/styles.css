@@ -40,3 +40,11 @@
 .teachable-task .teachable-steps p,.teachable-task .task-callout,.teachable-task .task-results p{font-size:17px;line-height:1.7}
 .teachable-task .task-action{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin:28px 0}
 .teachable-task .task-action span{font-size:15px;color:#d2e5dc}
+
+
+/* CORRECCIÓN DEFINITIVA: la ruta NO debe flotar sobre la portada. */
+.hero{position:relative!important;display:flex;min-height:100svh;overflow:hidden}
+.hero-shell{position:relative;z-index:1;box-sizing:border-box;padding-bottom:clamp(90px,12vh,150px)}
+.concept-strip{position:relative!important;inset:auto!important;top:auto!important;bottom:auto!important;left:auto!important;right:auto!important;transform:none!important;width:100%;display:block;clear:both;margin:0;background:#0d3036;z-index:1}
+.strip-inner{position:relative;max-width:1600px;margin-inline:auto;flex-wrap:wrap}
+@media (max-width:900px){.hero{min-height:92svh}.concept-strip{overflow-x:auto}.strip-inner{flex-wrap:nowrap;width:max-content;max-width:none}}
