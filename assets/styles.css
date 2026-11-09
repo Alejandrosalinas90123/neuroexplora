@@ -30,3 +30,13 @@
 .tensorflow-guide .playground-steps{padding-left:22px;margin:15px 0 25px}
 .tensorflow-guide .playground-steps li{color:#e2eee9;font-size:16px;line-height:1.65;margin-bottom:10px}
 @media(max-width:760px){.activation-lesson{grid-template-columns:1fr}.activation-example,.activation-compare{padding:17px}.activation-result{grid-template-columns:1fr}}
+
+
+/* Actividad 05: Teachable Machine */
+.teachable-task .task-callout,.teachable-task .task-results{background:#12343a;border-left:4px solid #d89578;padding:18px 22px;margin:22px 0;color:#eef4ed}
+.teachable-task .teachable-steps{padding-left:30px;counter-reset:steps}
+.teachable-task .teachable-steps li{padding:12px 0 16px 8px;border-bottom:1px solid #ffffff24}
+.teachable-task .teachable-steps h5,.teachable-task .task-results h5{color:#fbf2e7;font:400 clamp(23px,2.5vw,30px)/1.25 Georgia,serif;margin:4px 0 12px}
+.teachable-task .teachable-steps p,.teachable-task .task-callout,.teachable-task .task-results p{font-size:17px;line-height:1.7}
+.teachable-task .task-action{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin:28px 0}
+.teachable-task .task-action span{font-size:15px;color:#d2e5dc}
