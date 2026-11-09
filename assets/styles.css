@@ -12,3 +12,21 @@
 .article .architecture-type .analogy{color:#f0c4af;border-left:3px solid #d89578;padding-left:12px;font-size:15px}
 .article .architecture-types .architecture-note{font-size:15px;color:#cee0da;margin:20px 0 0}
 @media(max-width:900px){.architecture-types-grid{grid-template-columns:1fr}}
+
+/* Laboratorio visual 03: lectura guiada */
+.activation-lesson{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:22px 0}
+.activation-example,.activation-compare{background:#12363b;border:1px solid #608782;border-radius:14px;padding:24px;min-width:0}
+.activation-example label{display:block;color:#e5f2ec;font-size:17px;margin:14px 0}
+.activation-example input{width:100%;accent-color:#e9a68a}
+.activation-example select{display:block;width:100%;background:#0c2d32;color:white;border:1px solid #81b7ad;padding:12px;border-radius:7px;font-size:17px}
+.activation-step-label{color:#a4e9d9!important;font-weight:700;font-size:17px!important;margin:0 0 12px!important}
+.activation-compare .activation-chart{background:transparent;border:none;display:block;width:100%;height:auto;overflow:visible}
+.activation-legend{display:flex;flex-wrap:wrap;gap:20px;margin:12px 0;font-size:15px;color:#e7efe9}
+.legend-line{display:inline-block;width:34px;border-top:4px solid #efad8d;margin-right:7px;vertical-align:middle}
+.legend-line.ideal{border-top:3px dashed #92e6d9}
+.activation-result{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:17px 0}
+.activation-result>div{background:#0c2b31;border:1px solid #4d7673;padding:14px;color:#ecf2ef;font-size:15px;min-width:0}
+.activation-result strong{color:#ffe0ba;font-size:21px;display:block;margin-top:6px}
+.tensorflow-guide .playground-steps{padding-left:22px;margin:15px 0 25px}
+.tensorflow-guide .playground-steps li{color:#e2eee9;font-size:16px;line-height:1.65;margin-bottom:10px}
+@media(max-width:760px){.activation-lesson{grid-template-columns:1fr}.activation-example,.activation-compare{padding:17px}.activation-result{grid-template-columns:1fr}}
